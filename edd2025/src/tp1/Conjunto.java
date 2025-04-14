@@ -1,4 +1,4 @@
-package TDAconjuntos;
+package tp1;
 
 public interface Conjunto<E> {
 	

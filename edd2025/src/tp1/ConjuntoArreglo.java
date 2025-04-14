@@ -1,4 +1,4 @@
-package TDAconjuntos;
+package tp1;
 
 public class ConjuntoArreglo<E> implements Conjunto<E> {
 
@@ -39,5 +39,4 @@ public class ConjuntoArreglo<E> implements Conjunto<E> {
 			}
 		return conj;
 	}
-	//HOLA HOLA HOLA
 }
