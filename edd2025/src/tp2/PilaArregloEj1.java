@@ -2,18 +2,17 @@ package tp2;
 
 import interfaces.Stack;
 import excepciones.EmptyStackException;
-import java.util.Arrays;
 
-public class PilaArreglo<E> implements Stack<E> {
+public class PilaArregloEj1<E> implements Stack<E> {
 
 	protected E [] arr;
 	protected int cant;
 	
-	public PilaArreglo(int cant) {
+	public PilaArregloEj1(int cant) {
 		arr = (E[]) new Object[cant];
 		cant = 0;
 	}
-	public PilaArreglo() {
+	public PilaArregloEj1() {
 		this(50);
 	}
 	public int size() {
@@ -45,7 +44,7 @@ public class PilaArreglo<E> implements Stack<E> {
 	}
 	
 	public void invertir(E[] P) {
-		PilaArreglo<E> pila = new PilaArreglo<E>();
+		PilaArregloEj1<E> pila = new PilaArregloEj1<E>();
 		E aux = null;
 			for(int i = 0; i < P.length; i++) {
 				aux = P[i];
